@@ -4,8 +4,6 @@
 
 Build your defences, manage your resources, and survive the wilderness.
 
-![Wilderness Cover](cover.png)
-
 ## 🎮 About the Game
 
 You find yourself in a forest surrounded by hostile zombies. Your objective is to survive all five waves while keeping your health above zero.
