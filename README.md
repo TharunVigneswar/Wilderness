@@ -43,3 +43,13 @@ To access the game assets and scripts, use the codespace of this github reposito
 - **Language:** GDScript
 - **Renderer:** Compatibility Renderer
 - **Platform:** Windows
+
+## Gameplay Screenshots
+
+<img width="635" height="356" alt="image" src="https://github.com/user-attachments/assets/7db874a1-374f-4d6f-ba0e-88eebcf76484" />
+
+<img width="637" height="359" alt="image" src="https://github.com/user-attachments/assets/10c86326-6abe-435d-9d23-423bc2f9fa14" />
+
+<img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/1ad90cb5-f714-4196-8ab4-3f74bef692e1" />
+
+<img width="638" height="364" alt="image" src="https://github.com/user-attachments/assets/f0d0247b-02f5-4288-853e-0edb0b67f29b" />
