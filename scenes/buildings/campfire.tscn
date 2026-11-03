@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://ci6po1adxxnmf"]
+
+[ext_resource type="Script" uid="uid://cmx6dy7gmdags" path="res://scripts/campfire.gd" id="1_ditc7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ditc7"]
+radius = 18.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lyhs3"]
+radius = 100.0
+
+[sub_resource type="Gradient" id="Gradient_ditc7"]
+offsets = PackedFloat32Array(0, 0.0041666627, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.96666664, 0.96666664, 0.96666664, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_d1gwf"]
+gradient = SubResource("Gradient_ditc7")
+width = 200
+height = 200
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[node name="Campfire" type="StaticBody2D" unique_id=1223388684]
+script = ExtResource("1_ditc7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1586855427]
+shape = SubResource("CircleShape2D_ditc7")
+
+[node name="CampfireSprite" type="Sprite2D" parent="." unique_id=642396556]
+
+[node name="EffectArea" type="Area2D" parent="." unique_id=1399854225]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EffectArea" unique_id=846953157]
+shape = SubResource("CircleShape2D_lyhs3")
+
+[node name="FireLight" type="PointLight2D" parent="." unique_id=1962627827]
+color = Color(0.9137255, 0.5803922, 0.33333334, 1)
+energy = 0.55
+texture = SubResource("GradientTexture2D_d1gwf")
+texture_scale = 2.0

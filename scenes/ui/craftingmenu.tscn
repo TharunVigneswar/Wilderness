@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://wleswrke5ddx"]
+
+[ext_resource type="Script" uid="uid://bgnpcpixe8yjv" path="res://scripts/craftingmenu.gd" id="1_qfvej"]
+
+[node name="CraftingMenu" type="Control" unique_id=1318803180]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_qfvej")
+
+[node name="CraftingPanel" type="Panel" parent="." unique_id=1163924198]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -200.0
+offset_right = 250.0
+offset_bottom = 200.0
+
+[node name="TitleLabel" type="Label" parent="CraftingPanel" unique_id=579821952]
+layout_mode = 1
+offset_left = 23.0
+offset_top = 19.0
+offset_right = 483.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 28
+text = "CRAFTING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BuildingList" type="VBoxContainer" parent="CraftingPanel" unique_id=988705239]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 90.0
+offset_right = 460.0
+offset_bottom = 410.0
+theme_override_constants/separation = 15
+
+[node name="TurretButton" type="Button" parent="CraftingPanel/BuildingList" unique_id=2088547008]
+layout_mode = 2
+text = "TURRET
+8 WOOD | 5 STONE"
+
+[node name="CampfireButton" type="Button" parent="CraftingPanel/BuildingList" unique_id=1410145264]
+layout_mode = 2
+text = "CAMPFIRE
+5 WOOD | 3 STONE"
+
+[node name="CloseLabel" type="Label" parent="CraftingPanel" unique_id=1030307778]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 345.0
+offset_right = 480.0
+offset_bottom = 370.0
+text = "Press B or ESC to close"
+horizontal_alignment = 1
