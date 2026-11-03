@@ -46,7 +46,7 @@ To access the game assets and scripts, use the codespace of this github reposito
 
 ## Gameplay Screenshots
 
-<img width="635" height="356" alt="image" src="https://github.com/user-attachments/assets/7db874a1-374f-4d6f-ba0e-88eebcf76484" />
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/68ced16c-1f2a-45c5-8634-0a2a1f3ef360" />
 
 <img width="637" height="359" alt="image" src="https://github.com/user-attachments/assets/10c86326-6abe-435d-9d23-423bc2f9fa14" />
 
