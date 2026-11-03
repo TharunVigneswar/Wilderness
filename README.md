@@ -21,7 +21,7 @@ Survive all five waves of zombies to win.
 | Left Click | Place Building |
 | Right Click / Esc| Cancel Placement |
 
-## 📥 Installation & How to Play
+## Installation & How to Play
 
 1. Open the **Releases** section of this GitHub repository.
 2. Download the `Wilderness.zip` file.
