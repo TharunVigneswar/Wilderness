@@ -1,48 +1,31 @@
 # 🌲 Wilderness
 
-**Wilderness** is a 2D top-down survival and base-defence game where you must survive five waves of zombies by collecting resources, crafting defensive structures, and protecting yourself from incoming enemies.
+**Wilderness** is a 2D top-down survival and base-defence game where you must survive five waves of zombies by collecting resources, crafting defensive structures, and protecting yourself from incoming zombies.
 
 Build your defences, manage your resources, and survive the wilderness.
 
 ## 🎮 About the Game
 
-You find yourself in a forest surrounded by hostile zombies. Your objective is to survive all five waves while keeping your health above zero.
-
-Collect wood and stone, construct defensive buildings, and use your surroundings to your advantage. Each wave brings more zombies, making survival increasingly challenging.
-
-## ✨ Features
-
-- **Top-down survival gameplay** with player movement and melee combat.
-- **Five zombie waves** with progressively increasing difficulty.
-- **Resource collection** featuring wood and stone.
-- **Building system** with free-placement mechanics.
-- **Defensive structures** that automatically help you fight zombies.
-- **Day and night cycle** with smooth lighting transitions.
-- **Campfire lighting** with atmospheric orange glow.
-- **Health system** with healing and damage effects.
-- **Wave rewards** for completing each round.
-- **Victory and defeat screens** with restart functionality.
-- **Instructions menu** explaining controls and gameplay.
+Survive all five waves of zombies to win.
 
 ## 🏗️ Buildings
 
 | Building | Function | Cost | Duration |
 |---|---|---|---|
-| Turret | Automatically attacks nearby zombies, dealing 15 damage per second. | 8 Wood + 5 Stone | 120 seconds |
-| Campfire | Damages nearby zombies and heals the player within its range. | 5 Wood + 3 Stone | 90 seconds |
+| Turret | Attacks nearby enemies. | 8 Wood + 5 Stone | 120 seconds |
+| Campfire | Does small damage to nearrby eneies and heals player within a range. | 5 Wood + 3 Stone | 90 seconds |
 
 ## 🎮 Controls
 
 | Key | Action |
 |---|---|
 | W / A / S / D | Move |
-| E | Interact |
+| E | Collect Materials |
 | Space | Attack |
-| I | Open / Close Inventory |
+| I | Inventory |
 | B | Open Crafting Menu |
 | Left Click | Place Building |
-| Right Click | Cancel Building Placement |
-| Esc | Cancel Building Placement |
+| Right Click / Esc| Cancel Placement |
 
 ## 📥 Installation & How to Play
 
@@ -54,7 +37,7 @@ Collect wood and stone, construct defensive buildings, and use your surroundings
 6. Open the newly extracted folder.
 7. Locate and double-click `Wilderness.exe` to launch the game.
 
-**Important:** Make sure you extract the ZIP file before launching the game. Keep all the extracted files together in the same folder, as the game may require its accompanying files to run correctly.
+**Important:** Make sure you extract the ZIP file before launching the game. Keep all the extracted files together in same folder, as it needs all the files to run correctly.
 
 **Platform:** Windows
 
@@ -64,13 +47,3 @@ Collect wood and stone, construct defensive buildings, and use your surroundings
 - **Language:** GDScript
 - **Renderer:** Compatibility Renderer
 - **Platform:** Windows
-
-## 🏆 Objective
-
-Survive all five waves of zombies.
-
-Collect resources, build your defences, eliminate every zombie, and make it out of the wilderness alive.
-
----
-
-**WILDERNESS — SURVIVE. CRAFT. DEFEND.**
