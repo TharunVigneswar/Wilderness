@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dvltrawith0v6"]
+
+[ext_resource type="Script" uid="uid://53pwysgtrwos" path="res://scripts/tree.gd" id="1_thqfv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d1gwf"]
+size = Vector2(18, 30)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d1gwf"]
+radius = 55.0
+
+[node name="Tree" type="StaticBody2D" unique_id=2033322598]
+script = ExtResource("1_thqfv")
+
+[node name="Trunk" type="Polygon2D" parent="." unique_id=2077389847]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1122275155]
+position = Vector2(0, 15)
+shape = SubResource("RectangleShape2D_d1gwf")
+
+[node name="InteractionArea" type="Area2D" parent="." unique_id=87164812]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea" unique_id=1740561423]
+shape = SubResource("CircleShape2D_d1gwf")

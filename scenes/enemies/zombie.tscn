@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://op5mw8fo21yb"]
+
+[ext_resource type="Script" uid="uid://becq7jbr777sa" path="res://scripts/zombie.gd" id="1_3pt6v"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mgnsa"]
+radius = 8.0
+
+[node name="Zombie" type="CharacterBody2D" unique_id=694811430]
+script = ExtResource("1_3pt6v")
+
+[node name="ZombieVisual" type="AnimatedSprite2D" parent="." unique_id=1086254692]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=23828956]
+shape = SubResource("CircleShape2D_mgnsa")
