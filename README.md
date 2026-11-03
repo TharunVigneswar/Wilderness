@@ -1,21 +1,15 @@
-# 🌲 Wilderness
-
-**Wilderness** is a 2D top-down survival and base-defence game where you must survive five waves of zombies by collecting resources, crafting defensive structures, and protecting yourself from incoming zombies.
-
-Build your defences, manage your resources, and survive the wilderness.
-
-## 🎮 About the Game
+## About the Game
 
 Survive all five waves of zombies to win.
 
-## 🏗️ Buildings
+## Buildings
 
 | Building | Function | Cost | Duration |
 |---|---|---|---|
 | Turret | Attacks nearby enemies. | 8 Wood + 5 Stone | 120 seconds |
 | Campfire | Does small damage to nearrby eneies and heals player within a range. | 5 Wood + 3 Stone | 90 seconds |
 
-## 🎮 Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -43,7 +37,7 @@ To access the game assets and scripts, use the codespace of this github reposito
 
 **Platform:** Windows
 
-## 🛠️ Built With
+## Built With
 
 - **Engine:** Godot Engine 4.7.2
 - **Language:** GDScript
