@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://bgaba5y27hjji"]
+
+[ext_resource type="Script" uid="uid://chs03lvpcdqy8" path="res://scripts/winscreen.gd" id="1_58qqr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d1gwf"]
+bg_color = Color(0.5686275, 0.7411765, 0.5137255, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xq4fs"]
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tb2c2"]
+bg_color = Color(0.69411767, 0.84313726, 0.6156863, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3oak"]
+bg_color = Color(0.14901961, 0.20784314, 0.18039216, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_58qqr"]
+bg_color = Color(0.22352941, 0.29803923, 0.2509804, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="WinScreen" type="Control" unique_id=1754546879]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_58qqr")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=250027103]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0627451, 0.101960786, 0.09019608, 1)
+
+[node name="Content" type="VBoxContainer" parent="." unique_id=530087945]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -190.0
+offset_right = 350.0
+offset_bottom = 190.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 22
+alignment = 1
+
+[node name="Title" type="Label" parent="Content" unique_id=471362441]
+custom_minimum_size = Vector2(680, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.90588236, 0.84313726, 0.64705884, 1)
+theme_override_font_sizes/font_size = 48
+text = "WILDERNESS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Subtitle" type="Label" parent="Content" unique_id=387285968]
+custom_minimum_size = Vector2(680, 40)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45882353, 0.7411765, 0.5137255, 1)
+theme_override_font_sizes/font_size = 40
+text = "SURVIVED"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StatsLabel" type="Label" parent="Content" unique_id=2002712693]
+custom_minimum_size = Vector2(680, 45)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7019608, 0.7529412, 0.70980394, 1)
+theme_override_font_sizes/font_size = 17
+text = "ALL FIVE WAVES COMPLETED"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayAgainButton" type="Button" parent="Content" unique_id=1434055105]
+custom_minimum_size = Vector2(260, 55)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.09019608, 0.14509805, 0.11372549, 1)
+theme_override_font_sizes/font_size = 19
+theme_override_styles/normal = SubResource("StyleBoxFlat_d1gwf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xq4fs")
+theme_override_styles/hover = SubResource("StyleBoxFlat_tb2c2")
+text = "PLAY AGAIN"
+
+[node name="MainMenuButton" type="Button" parent="Content" unique_id=2056280451]
+custom_minimum_size = Vector2(260, 48)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8156863, 0.84705883, 0.81960785, 1)
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_d3oak")
+theme_override_styles/hover = SubResource("StyleBoxFlat_58qqr")
+text = "MAIN MENU"

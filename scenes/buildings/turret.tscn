@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dqgrgb2bkxavm"]
+
+[ext_resource type="Script" uid="uid://dnwatx1q7blwy" path="res://scripts/turret.gd" id="1_12mpb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_12mpb"]
+radius = 20.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ditc7"]
+radius = 180.0
+
+[node name="Turret" type="StaticBody2D" unique_id=1976655094]
+script = ExtResource("1_12mpb")
+
+[node name="TurretSprite" type="Sprite2D" parent="." unique_id=1847870770]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1103108801]
+shape = SubResource("CircleShape2D_12mpb")
+
+[node name="AttackArea" type="Area2D" parent="." unique_id=1290646659]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=1539291818]
+shape = SubResource("CircleShape2D_ditc7")
