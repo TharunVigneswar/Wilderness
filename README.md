@@ -33,7 +33,7 @@ Survive all five waves of zombies to win.
 
 **Important:** Make sure you extract the ZIP file before launching the game. Keep all the extracted files together in same folder, as it needs all the files to run correctly.
 
-To access the game assets and scripts, use the codespace of this github repository
+To access the game assets and scripts, use the releases of this github repository
 
 **Platform:** Windows
 
